@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tarea01 PaginaWEB</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <style>
+        /* Personalización del color amarillo */
+        .custom-yellow {
+            background-color: #fff761; /* Amarillo vibrante */
+        }
+        /* Botones personalizados */
+        .btn-custom {
+            background-color: #ffffff; /* Negro */
+            color: #4444d1; /* Blanco */
+            border: 3px #9f9f9d; /* Sin borde */
+        }
+
+        .btn-custom:hover {
+            background-color: #faf6f6; /* Negro sin cambios */
+            color: #4c38ba; /* Blanco sin cambios */
+        }
+
+        /* Quitar el borde azul al enfocar */
+        .btn-custom:focus {
+            box-shadow: none;
+        }
+
+    </style>
+
+</head>
+<body>
+
+<!-- Header -->
+<header class="bg-info text-center py-3 rounded mb-3 border border-3 border-secondary">
+    <img src="./img/logo_ESPE.png" height="170" width="400" alt="Logo ESPE" class="img-fluid">
+</header>
+
+<!-- Navigation -->
+<nav class="custom-yellow p-3 rounded mb-3 border border-3 border-secondary">
+    <div class="row text-center">
+        <div class="col">
+            <a href="../Prueba_James_Mena/clases/crud_marca/index.php" class="text-decoration-underline fw-bold" style="color: purple;">Registro_Marca</a>
+        </div>
+        <div class="col">
+            <a href="../Prueba_James_Mena/clases/crud_color/index.php" class="text-decoration-underline fw-bold" style="color: rgb(33, 9, 157);">Registro_Color</a>
+        </div>
+        <div class="col">
+          <a href="../Prueba_James_Mena/clases/crud_notebook/index.php" class="text-decoration-underline fw-bold" style="color: rgb(31, 157, 9);">Registro_Notebook</a>
+        </div>
+    </div>
+</nav>
+
+<!-- Main Layout -->
+<main class="container">
+    <div class="row g-3">
+        <!-- Buttons -->
+        <aside class="col-lg-2 col-md-3 col-sm-12 d-flex flex-column justify-content-center align-items-center gap-3 border border-3 border-secondary p-3 rounded">
+            <button class="btn btn-custom btn-sm p-3 rounded mb-3 border border-3 border-secondary justify-content-center" style="width: 120px;">
+                <a href="../Prueba_James_Mena/clases/usuario/index.php" class="text-decoration-none text-blackblue">LOGIN</a>
+            </button>
+        </aside>
+
+        <!-- Main Info -->
+        <section class="col-lg-6 col-md-6 col-sm-12 bg-success text-center text-black p-2 rounded ms-2 me-2 mb-2" style="border: 3px solid gray;">
+            <h3 style="color: white;">Aplicación de Tecnologías WEB</h3>
+            <p>Estudiante: James Mena ____________________</p>
+            <p>NRC: 3762 ____________________</p>
+            <p>Fecha: 02/13/2025</p>
+        </section>
+
+        <!-- Video -->
+        <section class="col-lg-3 col-md-3 col-sm-12 bg-dark p-2 rounded ms-2 me-2 mb-2" style="border: 3px solid gray;">
+            <img src="../Prueba_James_Mena/img/kil.jpg" alt="Imagen de ejemplo" class="w-100 rounded">
+        </section>
+    </div>
+</main>
+
+<!-- Footer -->
+<footer class="custom-yellow text-center py-3 rounded mt-3 border border-3 border-secondary">
+    <a href="Formulario_Contacto.html#FormContacto" class="text-decoration-underline fw-bold" style="color: purple;">Contacto PARTE III</a>
+</footer>
+
+<script src="js/login.js"></script>
+
+</body>
+</html>
